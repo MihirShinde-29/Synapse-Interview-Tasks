@@ -53,7 +53,7 @@ while True:
 
         EAR = (left_area + right_area)/2
         EAR = round(EAR, 2)
-        if EAR < 0.23:
+        if EAR < 0.20:
             cv2.putText(frame, "DROWSY", (20, 100), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 255), 4)
             cv2.putText(frame, "Are you Sleepy?", (20, 400), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 4)
             print("DROWSY")
