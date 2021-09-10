@@ -59,7 +59,7 @@ while True:
             print("DROWSY")
         print(EAR)
 
-    cv2.imshow("Face Landmarks", frame)
+    cv2.imshow("Drowsiness Detector", frame)
 
     if cv2.waitKey(1) == ord('q'):
         break
